@@ -82,19 +82,6 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 968px) {
-  .nav_menu {
-    position: fixed;
-    left: -100%;
-    top: 3rem;
-    background-color: var(--white-color);
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
-    z-index: var(--z-fixed);
-    transition: .3s;
-  }
-}
 
 .nav_item {
   margin-bottom: 2rem;
